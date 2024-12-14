@@ -2,7 +2,7 @@ from flask import Flask                         # from the flask module import t
 #OOP - object oriented paradigm
 app = Flask(__name__)                           # When you create an instance of a class, you get an object; app is now an object
 
-@app.get("/")                                   # Flask decorator that allows us to define routes
+@app.get("/aboutme")                                   # Flask decorator that allows us to define routes
 def home():
     me = {                                      # python3 dictionary
         "fist_name": "Christian",
